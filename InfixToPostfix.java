@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class Main {
+public class InfixToPostfix {
 
     public static int precedence(char ch) {
         if (ch == '+' || ch == '-') {
