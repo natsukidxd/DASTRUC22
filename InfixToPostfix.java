@@ -8,7 +8,7 @@ public class InfixToPostfix {
         } else if (ch == '*' || ch == '/') {
             return 2; // * and / have higher precedence.
         } else if (ch == '^') {
-        	return 3;
+            return 3;
         }
         return 0;
     }
