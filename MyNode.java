@@ -1,4 +1,4 @@
 public class MyNode {
-	public Object item;
-	public MyNode next;
+    Object item;
+    MyNode next;
 }
